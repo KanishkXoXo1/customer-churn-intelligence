@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+.venv-test/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Dataset files
+data/raw/*.csv
+data/processed/*.csv
