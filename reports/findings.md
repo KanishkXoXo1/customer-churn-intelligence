@@ -70,3 +70,33 @@ Customers who churned had higher average and median monthly charges than custome
 - Build a churn dashboard.
 - Compare predictive models using appropriate evaluation metrics.
 - Develop and evaluate targeted retention recommendations.
+
+
+## 7. SQL Analysis Results
+
+SQL was used to validate the overall churn rate and compare churn across contract types, payment methods, and tenure groups.
+
+### Overall Churn
+- Total customers: 7,043
+- Customers churned: 1,869
+- Overall churn rate: 26.54%
+
+### Tenure Analysis
+Customers with 0–12 months of tenure had the highest churn rate at 47.44%. Churn declined across longer-tenure groups, reaching 9.51% among customers with 49 or more months of tenure.
+
+### Contract Analysis
+Month-to-month customers had a churn rate of 42.71%, compared with 11.27% for one-year contracts and 2.83% for two-year contracts.
+
+### Payment Method Analysis
+Electronic-check customers had the highest churn rate at 45.29%. Automatic credit-card customers had the lowest rate among the four payment methods at 15.24%.
+
+### Customer Profile Comparison
+Churned customers had average monthly charges of 74.44 and average tenure of 17.98 months. Retained customers had average monthly charges of 61.27 and average tenure of 37.57 months.
+
+### Recommended Next Steps
+1. Investigate early-tenure customer churn and onboarding experience.
+2. Evaluate retention offers for month-to-month customers.
+3. Investigate payment-method and service-package differences.
+4. Validate these associations through deeper analysis and controlled retention experiments.
+
+These findings are descriptive. They do not establish that any single factor causes churn.
